@@ -1,0 +1,68 @@
+:vale_www: https://docs.errata.ai/vale/about
+:freestyles_www: https://www.freestylegui.de
+:freestyles_git: https://github.com/DocOps/freestyles
+:openstyles_www: https://www.openstyleguid.es
+:openstyles_git: https://github.com/DocOps/openstyles
+:docopslab_www:  https://github.com/DocOps
+:toc: macro
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+= Free Styles: An Open-sourced Technical Documentation Writer's Reference
+
+toc::[]
+
+An adaptable, copyleft-licensed style guide for technical writing about computer hardware and software projects and products.
+
+Like the link:https://developers.google.com/style?hl=en[Google Developer Documentation Style Guide] or the link:https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Style Guide], except:
+
+Creative Commons license::
+Remix and republish as you see fit; no giant corporation will hunt you down for customizing their copyrighted material.
+
+Readily customizable::
+Designed to be tailored to your application/needs _without forking_ the codebase.
+
+Forkable::
+Clone the Git repo and maintain a parallel version or just take it in your own direction.
+
+Independent::
+Maintained by tech-writing enthusiasts from multiple companies and freelancers with no allegiance to any corporation or faction (<<status,including you?>>).
+
+== Project Scope
+
+This project is primarily about quality style guidelines, high usability, and single-sourced automation assistance.
+
+The editorial team will do its best to make a widely applicable, context-aware, ethically conscious guide to enable clear, consistent technical communications for a broad range of software and hardware terms, contexts, and challenges.
+
+The format and organization will be holistic yet flexible.
+We will take into account multiple ways users will approach our resources and offer as many ways to consume and reuse them as we can sensibly maintain.
+
+We will also provide as much help for your automation tools so you can sensibly single-source Vale rules and reader-facing content.
+
+As an *experimental objective*, Free Styles will include "`generic`"/"`neutral`" *glossary-style definition entries* for at least some portion of the terms which can be optionally made end-user-facing in your public documentation.
+
+[[status]]
+== Project Status & Participation
+
+This project needs an editorial committee.
+If you are interested, link:{freestyles_git}/issues/1[please sign up here].
+There will be several tiers of involvement and commitment, so you'll be able to participate how you prefer.
+
+I will be recruiting from and seeding discussions in the `#style-guides` channel in link:https://www.writethedocs.org/slack/[Write the Docs Slack community] -- please join in there.
+
+If you just want to use, review, and nit-pick our work, you will of course be welcome to do so without joining anything.
+Just stay tuned.
+
+If you would rather be involved in the open-source tooling end of this undertaking, check out the link:{openstyles_git}[Open Styles Project].
+
+== What's Inside
+
+FreeStyles _will be_ a codebase of style rules and terms in the OpenSGY markup format (stands for _style guide YAML_, pronounced "`open siggy`") established by the link:{openstyles_www}[OpenStyles Project] under link:{docopslab_www}[DocOps Lab].
+
+For now, it is just this README.
+Watch this project to keep in touch.
