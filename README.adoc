@@ -62,7 +62,7 @@ If you would rather be involved in the open-source tooling end of this undertaki
 
 == What's Inside
 
-FreeStyles _will be_ a codebase of style rules and terms in the OpenSGY markup format (stands for _style guide YAML_, pronounced "`open siggy`") established by the link:{openstyles_www}[OpenStyles Project] under link:{docopslab_www}[DocOps Lab].
+Free Styles _will be_ a codebase of style rules and terms in the OpenSGY markup format (stands for _style guide YAML_, pronounced "`open siggy`") established by the link:{openstyles_git}[OpenStyles Project] under link:{docopslab_www}[DocOps Lab].
 
 For now, it is just this README.
 Watch this project to keep in touch.
