@@ -22,7 +22,8 @@ An adaptable, copyleft-licensed style guide for technical writing about computer
 Like the link:https://developers.google.com/style?hl=en[Google Developer Documentation Style Guide] or the link:https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Style Guide], except:
 
 Creative Commons license::
-Remix and republish as you see fit; no giant corporation will hunt you down for customizing their copyrighted material.
+Remix and republish as you see fit; no giant corporation will hunt you down for customizing their copyrighted material. +
+https://creativecommons.org/licenses/by-nc/4.0/[image:https://i.creativecommons.org/l/by-nc/4.0/88x31.png[]]
 
 Readily customizable::
 Designed to be tailored to your application/needs _without forking_ the codebase.
